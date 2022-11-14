@@ -76,7 +76,7 @@ while (iterator->next != NULL)
 std::cout << iterator->data << std::endl;
 
 // And backwards, too!
-// Iterate forwards using head
+// Iterate backwards using head
 while (iterator->last != NULL)
 {
   std::cout << iterator->data << std::endl;
